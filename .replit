@@ -1,0 +1,6 @@
+language = "nodejs"
+run = "npm install && npm start"
+
+# Notes:
+# - This file makes it easy to import the `backend` folder as a Node Repl on Replit.
+# - Replit will run `npm install` then `npm start` which executes `node src/server.js` as defined in package.json.

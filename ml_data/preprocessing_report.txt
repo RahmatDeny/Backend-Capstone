@@ -1,0 +1,110 @@
+======================================================================
+MINING DATA PREPROCESSING REPORT
+======================================================================
+Generated: 2025-11-15 03:14:02
+
+DATASET SUMMARY
+----------------------------------------------------------------------
+
+WEATHER:
+  Total Records: 8,784
+  Total Features: 23
+  Memory Usage: 2.48 MB
+  New Features Added: 15
+
+ROADS:
+  Total Records: 18,000
+  Total Features: 25
+  Memory Usage: 7.49 MB
+  New Features Added: 13
+
+VESSELS:
+  Total Records: 5,400
+  Total Features: 29
+  Memory Usage: 2.70 MB
+  New Features Added: 15
+
+EQUIPMENT:
+  Total Records: 5,400
+  Total Features: 31
+  Memory Usage: 2.75 MB
+  New Features Added: 17
+
+PRODUCTION:
+  Total Records: 730
+  Total Features: 36
+  Memory Usage: 0.19 MB
+  New Features Added: 19
+
+PRICE:
+  Total Records: 730
+  Total Features: 27
+  Memory Usage: 0.21 MB
+  New Features Added: 15
+
+OPERATIONS:
+  Total Records: 2,160
+  Total Features: 38
+  Memory Usage: 0.90 MB
+  New Features Added: 18
+
+======================================================================
+FEATURE ENGINEERING SUMMARY
+======================================================================
+
+Temporal Features: 34 features
+
+Rolling/Lag Features: 25 features
+
+Ratio/Efficiency Features: 34 features
+
+Score Features: 15 features
+
+Categorical Encoding: 28 features
+
+======================================================================
+ML-READY DATASETS
+======================================================================
+
+Production Forecasting:
+  Purpose: Time series prediction of daily coal production
+  Status: Ready for model training
+
+Equipment Failure Prediction:
+  Purpose: Binary classification for equipment breakdown
+  Status: Ready for model training
+
+Price Prediction:
+  Purpose: Coal price forecasting model
+  Status: Ready for model training
+
+Operational Efficiency:
+  Purpose: Hourly production optimization
+  Status: Ready for model training
+
+Road Maintenance Priority:
+  Purpose: Priority classification for maintenance
+  Status: Ready for model training
+
+======================================================================
+NEXT STEPS
+======================================================================
+
+1. Model Development:
+   - Train production forecasting model (Time Series)
+   - Train equipment failure model (Classification)
+   - Train price prediction model (Regression)
+   - Train operational efficiency model (Regression)
+   - Train road maintenance model (Classification)
+
+2. Model Evaluation:
+   - Calculate performance metrics
+   - Cross-validation
+   - Feature importance analysis
+
+3. Deployment Preparation:
+   - Save best models
+   - Create prediction pipeline
+   - Integrate with portal/dashboard
+
+======================================================================

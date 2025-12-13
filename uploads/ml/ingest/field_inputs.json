@@ -1,0 +1,99 @@
+{
+  "savedAt": "2025-12-11T21:32:38.776Z",
+  "weather": {
+    "rainfall": 0.6,
+    "windSpeed": 4.1,
+    "temperature": 24.2,
+    "warning": "Low Risk"
+  },
+  "roads": {
+    "status": "Hijau",
+    "trafficDensity": 0.7303921568627451,
+    "maintenanceUrgency": 1,
+    "averageSpeed": 22
+  },
+  "shipments": {
+    "delayedHours": 2,
+    "highRiskCount": 1,
+    "vessel": "MV Coal Carrier 1"
+  },
+  "fleet": {
+    "dumpTrucks": 200,
+    "excavators": 4,
+    "graders": 1
+  },
+  "notes": "",
+  "mlPayloads": {
+    "production_forecasting": {
+      "month": 7,
+      "day_of_week": 2,
+      "is_weekend": 0,
+      "week_of_year": 28,
+      "working_hours": 16,
+      "rain_delay_hours": 0.12,
+      "weather_delay_ratio": 0.03,
+      "active_pits": 5,
+      "strip_ratio": 7.8,
+      "overburden_removed_bcm": 22000,
+      "production_ma7": 11000,
+      "production_ma30": 10800,
+      "production_lag1": 11200,
+      "production_lag7": 10950,
+      "ob_efficiency": 0.82,
+      "workforce_present": 560
+    },
+    "equipment_failure": {
+      "equipment_age": 4.5,
+      "operating_hours": 12000,
+      "daily_hours_worked": 18,
+      "fuel_consumption_lh": 42,
+      "productivity_score": 0.76,
+      "downtime_hours": 6,
+      "utilization_rate": 0.6,
+      "health_score": 0.65,
+      "fuel_efficiency": 0.55,
+      "days_since_maintenance": 22,
+      "cumulative_hours": 13000
+    },
+    "price_prediction": {
+      "month": 7,
+      "quarter": 3,
+      "price_ma7": 82.1,
+      "price_ma30": 81.4,
+      "price_volatility": 0.12,
+      "volume_traded_ton": 120000,
+      "brent_oil_usd_barrel": 78.5,
+      "usd_idr_rate": 15500,
+      "freight_rate_usd_ton": 9.2,
+      "demand_index": 0.61,
+      "supply_index": 0.48,
+      "demand_supply_gap": 0.13
+    },
+    "road_maintenance": {
+      "length_km": 3.2,
+      "average_speed_kmh": 0.65,
+      "gradient_pct": 4.5,
+      "width_m": 8,
+      "traffic_volume_trucks": 2000,
+      "quality_score": 0.7,
+      "safety_score": 0.55,
+      "traffic_density": 0.7303921568627451,
+      "days_since_maintenance": 45,
+      "maintenance_urgency": 1,
+      "capacity_utilization": 0.9803921568627451
+    },
+    "route_optimization": {
+      "length_km": 3.2,
+      "average_speed_kmh": 0.36666666666666664,
+      "gradient_pct": 4.5,
+      "width_m": 8,
+      "traffic_volume_trucks": 2000,
+      "quality_score": 0.7,
+      "safety_score": 0.55,
+      "traffic_density": 0.7303921568627451,
+      "days_since_maintenance": 45,
+      "maintenance_urgency": 1,
+      "capacity_utilization": 0.9803921568627451
+    }
+  }
+}
